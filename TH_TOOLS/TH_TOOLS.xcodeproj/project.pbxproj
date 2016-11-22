@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C438B9501DE3DB6E00E62046 /* NSString+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C438B9491DE3DB6E00E62046 /* NSString+TH_Extension.m */; };
+		C438B9511DE3DB6E00E62046 /* THRegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C438B94B1DE3DB6E00E62046 /* THRegexKitLite.m */; };
+		C438B9521DE3DB6E00E62046 /* UIImage+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C438B94D1DE3DB6E00E62046 /* UIImage+TH_Extension.m */; };
+		C438B9531DE3DB6E00E62046 /* UIView+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C438B94F1DE3DB6E00E62046 /* UIView+TH_Extension.m */; };
 		C45C9C021DDAD612001F1342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C011DDAD612001F1342 /* main.m */; };
-		C45C9C051DDAD612001F1342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C041DDAD612001F1342 /* AppDelegate.m */; };
-		C45C9C081DDAD612001F1342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C071DDAD612001F1342 /* ViewController.m */; };
-		C45C9C0B1DDAD612001F1342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C9C091DDAD612001F1342 /* Main.storyboard */; };
 		C45C9C0D1DDAD612001F1342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45C9C0C1DDAD612001F1342 /* Assets.xcassets */; };
-		C45C9C101DDAD612001F1342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C9C0E1DDAD612001F1342 /* LaunchScreen.storyboard */; };
 		C45C9C1B1DDAD612001F1342 /* TH_TOOLSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C1A1DDAD612001F1342 /* TH_TOOLSTests.m */; };
 		C45C9C261DDAD612001F1342 /* TH_TOOLSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C251DDAD612001F1342 /* TH_TOOLSUITests.m */; };
-		C45C9C361DDAD673001F1342 /* NSString+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C351DDAD673001F1342 /* NSString+TH_Extension.m */; };
-		C45C9C391DDB1000001F1342 /* UIImage+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C9C381DDB1000001F1342 /* UIImage+TH_Extension.m */; };
 		C4E7E18D1DDBF0B30091571A /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E7E18C1DDBF0B30091571A /* CoreImage.framework */; };
-		C4E7E1901DDC057D0091571A /* UIView+TH_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7E18F1DDC057D0091571A /* UIView+TH_Extension.m */; };
-		C4E7E1961DDC43E60091571A /* THRegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E7E1951DDC43E60091571A /* THRegexKitLite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +36,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C438B9481DE3DB6E00E62046 /* NSString+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TH_Extension.h"; sourceTree = "<group>"; };
+		C438B9491DE3DB6E00E62046 /* NSString+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TH_Extension.m"; sourceTree = "<group>"; };
+		C438B94A1DE3DB6E00E62046 /* THRegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRegexKitLite.h; sourceTree = "<group>"; };
+		C438B94B1DE3DB6E00E62046 /* THRegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRegexKitLite.m; sourceTree = "<group>"; };
+		C438B94C1DE3DB6E00E62046 /* UIImage+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TH_Extension.h"; sourceTree = "<group>"; };
+		C438B94D1DE3DB6E00E62046 /* UIImage+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TH_Extension.m"; sourceTree = "<group>"; };
+		C438B94E1DE3DB6E00E62046 /* UIView+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TH_Extension.h"; sourceTree = "<group>"; };
+		C438B94F1DE3DB6E00E62046 /* UIView+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TH_Extension.m"; sourceTree = "<group>"; };
 		C45C9BFD1DDAD612001F1342 /* TH_TOOLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TH_TOOLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C9C011DDAD612001F1342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C45C9C031DDAD612001F1342 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C45C9C041DDAD612001F1342 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C45C9C061DDAD612001F1342 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C45C9C071DDAD612001F1342 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C45C9C0A1DDAD612001F1342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45C9C0C1DDAD612001F1342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C45C9C0F1DDAD612001F1342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45C9C111DDAD612001F1342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C45C9C161DDAD612001F1342 /* TH_TOOLSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TH_TOOLSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C9C1A1DDAD612001F1342 /* TH_TOOLSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TH_TOOLSTests.m; sourceTree = "<group>"; };
@@ -56,15 +54,7 @@
 		C45C9C211DDAD612001F1342 /* TH_TOOLSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TH_TOOLSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C9C251DDAD612001F1342 /* TH_TOOLSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TH_TOOLSUITests.m; sourceTree = "<group>"; };
 		C45C9C271DDAD612001F1342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45C9C341DDAD673001F1342 /* NSString+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TH_Extension.h"; sourceTree = "<group>"; };
-		C45C9C351DDAD673001F1342 /* NSString+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TH_Extension.m"; sourceTree = "<group>"; };
-		C45C9C371DDB1000001F1342 /* UIImage+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TH_Extension.h"; sourceTree = "<group>"; };
-		C45C9C381DDB1000001F1342 /* UIImage+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TH_Extension.m"; sourceTree = "<group>"; };
 		C4E7E18C1DDBF0B30091571A /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		C4E7E18E1DDC057D0091571A /* UIView+TH_Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TH_Extension.h"; sourceTree = "<group>"; };
-		C4E7E18F1DDC057D0091571A /* UIView+TH_Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TH_Extension.m"; sourceTree = "<group>"; };
-		C4E7E1941DDC43E60091571A /* THRegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THRegexKitLite.h; sourceTree = "<group>"; };
-		C4E7E1951DDC43E60091571A /* THRegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THRegexKitLite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +107,15 @@
 		C45C9BFF1DDAD612001F1342 /* TH_TOOLS */ = {
 			isa = PBXGroup;
 			children = (
-				C45C9C331DDAD63E001F1342 /* TH_Tools */,
-				C45C9C031DDAD612001F1342 /* AppDelegate.h */,
-				C45C9C041DDAD612001F1342 /* AppDelegate.m */,
-				C45C9C061DDAD612001F1342 /* ViewController.h */,
-				C45C9C071DDAD612001F1342 /* ViewController.m */,
-				C45C9C091DDAD612001F1342 /* Main.storyboard */,
+				C438B9481DE3DB6E00E62046 /* NSString+TH_Extension.h */,
+				C438B9491DE3DB6E00E62046 /* NSString+TH_Extension.m */,
+				C438B94A1DE3DB6E00E62046 /* THRegexKitLite.h */,
+				C438B94B1DE3DB6E00E62046 /* THRegexKitLite.m */,
+				C438B94C1DE3DB6E00E62046 /* UIImage+TH_Extension.h */,
+				C438B94D1DE3DB6E00E62046 /* UIImage+TH_Extension.m */,
+				C438B94E1DE3DB6E00E62046 /* UIView+TH_Extension.h */,
+				C438B94F1DE3DB6E00E62046 /* UIView+TH_Extension.m */,
 				C45C9C0C1DDAD612001F1342 /* Assets.xcassets */,
-				C45C9C0E1DDAD612001F1342 /* LaunchScreen.storyboard */,
 				C45C9C111DDAD612001F1342 /* Info.plist */,
 				C45C9C001DDAD612001F1342 /* Supporting Files */,
 			);
@@ -155,21 +146,6 @@
 				C45C9C271DDAD612001F1342 /* Info.plist */,
 			);
 			path = TH_TOOLSUITests;
-			sourceTree = "<group>";
-		};
-		C45C9C331DDAD63E001F1342 /* TH_Tools */ = {
-			isa = PBXGroup;
-			children = (
-				C45C9C341DDAD673001F1342 /* NSString+TH_Extension.h */,
-				C45C9C351DDAD673001F1342 /* NSString+TH_Extension.m */,
-				C45C9C371DDB1000001F1342 /* UIImage+TH_Extension.h */,
-				C45C9C381DDB1000001F1342 /* UIImage+TH_Extension.m */,
-				C4E7E18E1DDC057D0091571A /* UIView+TH_Extension.h */,
-				C4E7E18F1DDC057D0091571A /* UIView+TH_Extension.m */,
-				C4E7E1941DDC43E60091571A /* THRegexKitLite.h */,
-				C4E7E1951DDC43E60091571A /* THRegexKitLite.m */,
-			);
-			path = TH_Tools;
 			sourceTree = "<group>";
 		};
 		C4E7E18B1DDBF0B30091571A /* Frameworks */ = {
@@ -286,9 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45C9C101DDAD612001F1342 /* LaunchScreen.storyboard in Resources */,
 				C45C9C0D1DDAD612001F1342 /* Assets.xcassets in Resources */,
-				C45C9C0B1DDAD612001F1342 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,13 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C45C9C081DDAD612001F1342 /* ViewController.m in Sources */,
-				C45C9C361DDAD673001F1342 /* NSString+TH_Extension.m in Sources */,
-				C4E7E1901DDC057D0091571A /* UIView+TH_Extension.m in Sources */,
-				C45C9C051DDAD612001F1342 /* AppDelegate.m in Sources */,
+				C438B9511DE3DB6E00E62046 /* THRegexKitLite.m in Sources */,
+				C438B9531DE3DB6E00E62046 /* UIView+TH_Extension.m in Sources */,
+				C438B9521DE3DB6E00E62046 /* UIImage+TH_Extension.m in Sources */,
 				C45C9C021DDAD612001F1342 /* main.m in Sources */,
-				C4E7E1961DDC43E60091571A /* THRegexKitLite.m in Sources */,
-				C45C9C391DDB1000001F1342 /* UIImage+TH_Extension.m in Sources */,
+				C438B9501DE3DB6E00E62046 /* NSString+TH_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,25 +325,6 @@
 			targetProxy = C45C9C221DDAD612001F1342 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C45C9C091DDAD612001F1342 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C45C9C0A1DDAD612001F1342 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C45C9C0E1DDAD612001F1342 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C45C9C0F1DDAD612001F1342 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C45C9C281DDAD612001F1342 /* Debug */ = {
