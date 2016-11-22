@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "telehotAppLib"
   s.version      = "0.0.1"
-  s.summary      = "公司用的一个applies整理的框架”
+  s.summary      = "公司用的一个app_ios整理的框架。有待整理”
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
