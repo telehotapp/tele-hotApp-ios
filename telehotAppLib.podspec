@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "telehotAppLib"
   s.version      = "0.0.1"
-  s.summary      = "公司用的一个app_ios整理的框架。有待整理”
+  s.summary      = "上海天好电子商务股份有限公司移动端iOS框架"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -52,8 +52,8 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "tele-hot" => "telehotapp@tele-hot.com" }
-  # Or just: s.author    = ""
+  s.author             = { "chensenran" => "telehotapp@tele-hot.com" }
+  # Or just: s.author    = "chensenran"
   # s.authors            = { "chensenran" => "telehotapp@tele-hot.com" }
   # s.social_media_url   = "http://twitter.com/chensenran"
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-   s.platform     = :ios, "7.0"
+    s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "TH_TOOLS/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  s.requires_arc = true
+    s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
